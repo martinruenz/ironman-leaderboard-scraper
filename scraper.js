@@ -92,7 +92,7 @@ athletes.sort(function(a,b) {
 	if(asplit[1] > bsplit[1]) return 1;
 	if(asplit[1] < bsplit[1]) return -1;
 
-	if(asplit.length < 3 && bsplit.length < 3) return 0;
+	if(asplit.length < 3 || bsplit.length < 3) return 0;
 
 	if(asplit[2] > bsplit[2]) return 1;
 	if(asplit[2] < bsplit[2]) return -1;
