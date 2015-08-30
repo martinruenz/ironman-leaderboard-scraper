@@ -18,9 +18,9 @@ npm install httpsync
 
 usage
 =====
-- Change the race-id in this line, to the id of the race you want to use: 
+- Change the race-id in this line, to the id of the race you want to use (Search Athlete, right-click name, copy link location. The 'rid' field in the URL is the race-id): 
 ```
-var raceid = 1143240085;
+var raceid = 28383839;
 ```
 - run the command:
 ```

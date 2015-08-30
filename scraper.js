@@ -2,11 +2,12 @@
 // Example pages:
 // http://track.ironman.com/newathlete.php?rid=1143240085&race=arizona&bib=6&v=3.0&beta=&1416153600
 // http://track.ironman.com/newathlete.php?rid=1143240085&race=arizona&bib=24&v=3.0&beta=&1416150900
+// http://track.ironman.com/newathlete.php?rid=28383839&race=vichy&bib=315&v=3.0&beta=&1440921600
 
 var httpsync = require('httpsync');
 var cheerio = require('cheerio');
 
-var raceid = 1143240085;
+var raceid = 28383839;
 var waitTime = 3000; // in ms
 var verbose = false;
 
