@@ -5,20 +5,20 @@ This little cross-plattform Node.js-script scrapes the athlete tracker from iron
 
 requirements
 ============
-- Node.js, see http://www.nodejs.org
-- httpsync and cheerio package
+- Node.js v0.11.13+, see http://www.nodejs.org
+- urllib-sync and cheerio package
 
 install
 =======
 - After installing node.js run:
-``` 
+```
 npm install cheerio
-npm install httpsync
+npm install urllib-sync
 ```
 
 usage
 =====
-- Change the race-id in this line, to the id of the race you want to use (Search Athlete, right-click name, copy link location. The 'rid' field in the URL is the race-id): 
+- Change the race-id in this line, to the id of the race you want to use (Search Athlete, right-click name, copy link location. The 'rid' field in the URL is the race-id):
 ```
 var raceid = 28383839;
 ```
